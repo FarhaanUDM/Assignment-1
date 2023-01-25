@@ -1,0 +1,32 @@
+.container{
+    width: 1400px;
+    background-color: var(--colour-lightgrey);
+    margin: 3.2rem auto;
+    min-height: 100vh;
+}
+.header{
+    min-height: 18rem;
+    background-color: var(--colour-lightblue);
+   
+}
+.content{
+    height: 120vh;
+    display: flex;
+}
+.sidebar{
+    background-color: antiquewhite;
+    flex: 0 1 25%;
+}
+.icacie-info{
+    background-color: aquamarine;
+    flex: 1 0 75%;
+}
+.footer{
+    height: 12rem;
+    background-color: var(--colour-lightblue);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}

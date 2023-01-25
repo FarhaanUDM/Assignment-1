@@ -1,0 +1,67 @@
+.header-cover{
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 6rem;
+    margin-left: 1rem;
+}
+.header-nav{
+    background-color: antiquewhite;
+    
+}
+.header-nav_items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: .9rem;
+}
+.header-nav__link{
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.header-nav__link:hover{
+    font-size: 1.4rem;
+    color: blue;
+}
+
+/* FOOTER */
+
+.contributor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    margin-left: 2rem;
+}
+.logolink{
+    height: 6.1rem;
+    width: 9rem;
+    padding: .8rem;
+}
+.social-page{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 250px;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+}
+.social-page__icon{
+    padding: 5px;
+}
+.copywrite{
+    font-weight: 700;
+    font-size: 1rem;
+}
