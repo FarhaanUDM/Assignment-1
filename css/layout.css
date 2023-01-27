@@ -10,16 +10,21 @@
    
 }
 .content{
-    height: 120vh;
+    min-height: 50vh;
     display: flex;
+    background-color: var(--colour-lightblue);
+    
 }
 .sidebar{
-    background-color: antiquewhite;
+    background-color: var(--colour-darkblue);
     flex: 0 1 25%;
+    border: 2px solid var(--colour-lightgrey);
 }
 .icacie-info{
-    background-color: aquamarine;
+    background-color: var(--colour-sky);
     flex: 1 0 75%;
+    padding: 1.4rem;
+    border: 2px solid var(--colour-lightgrey);
 }
 .footer{
     height: 12rem;
