@@ -142,6 +142,74 @@
 
 /* ICACIE-INFO */
 
+.icacie-info{
+    background: linear-gradient(120deg,var(--colour-sky),var(--colour-lightgrey));
+    padding: 10px 2%;
+    padding-bottom: 55px;
+    transition: 1s linear;
+
+}
+.icacie-info .heading{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 2rem;
+    color: var(--colour-black );
+    text-shadow: 0 5px 10px var( --colour-darkgrey);
+}
+
+.icacie-info .speakers-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 10px;
+}
+
+.icacie-info .speakers-grid .speaker-card{
+    box-shadow: 0 5px 10px var(--colour-darkblue);
+    border-radius: 5px;
+    background-color: var(--colour-lightgrey);
+    text-align: center;
+    padding: 15px 15px;
+}
+
+.icacie-info .speakers-grid .speaker-card:hover{
+    box-shadow: 0 10px 15px var(--colour-darkgrey);
+    transform: scale(1.02);
+}
+
+.icacie-info .speakers-grid .speaker-card img{
+    height: 170px;
+    width: 170px;
+    border-radius: 50%;
+}
+
+.icacie-info .speakers-grid .speaker-card figcaption{
+    color: var(--colour-black);
+    font-size: 1.7rem;
+    font-weight: 650;
+}
+
+.icacie-info .speakers-grid .speaker-card p{
+    font-size: 1rem;
+    line-height: 1.3;
+    color: var(--colour-black);
+    margin-bottom: 15px;
+}
+
+.icacie-info .speakers-grid .speaker-card .btn{
+    margin-top: 15px;
+    display: inline-block;
+    background: var(--colour-darkgrey);
+    color: aliceblue;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+
+.icacie-info .speakers-grid .speaker-card .btn:hover{
+    letter-spacing: 1.1px;
+}
+
+
 
 
 /* FOOTER */
