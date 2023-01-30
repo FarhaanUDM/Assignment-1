@@ -1,0 +1,176 @@
+.header-cover{
+    display: flex;
+    font-size: 1.7rem;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+}
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.udm_link{
+    color: aqua;
+    text-decoration: none;
+}
+.udm_link:hover{
+    color:var(--colour-darkblue);
+}
+.logo{
+    height: 6rem;
+    width: 200px;
+    margin-left: 1rem;
+}
+.header-nav{
+    background-color:var(--colour-sky);
+    
+}
+.header-nav_items{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: .9rem;
+}
+.header-nav__link{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: aqua;
+    font-weight: 700;
+}
+.header-nav__link:hover{
+    font-size: 1.4rem;
+    color: black;
+}
+/* CONTENT */
+/* SIDE-BAR */
+
+.sidebar-special{
+    width: 100%;
+    background-color: var(--colour-darkblue);
+    min-height: 6rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2px;
+    
+}
+.sidebar-special__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--colour-sky);
+    padding: 2rem;
+    text-decoration: none;
+    margin: 3px;
+    color: black;
+    border-radius: 5%;
+    color: aliceblue;
+    
+}
+.sidebar-special__link:hover{
+    background-color: aqua;
+    color: black;
+}
+.sidebar-latest{
+    width: 100%;
+    min-height: 10rem;
+    padding-left: 25px;
+    color: aliceblue;
+    margin: 3px;
+    
+}
+.sidebar-latest>h2{
+    padding: 3px;
+    margin-bottom: 2px;
+    
+}
+.sidebar-latest__list{
+    padding: 3px;
+    line-height: 2.1;
+    margin: 2px;
+}
+.sidebar-important{
+    width: 100%;
+    min-height: 10rem;
+    padding-left: 25px;
+    color: aliceblue;
+    margin: 3px;
+    line-height: 2.1;
+
+}
+
+.sidebar-important__list{
+    padding: 3px;
+    line-height: 2.1;
+    margin: 2px;;
+}
+
+.sidebar-website{
+    width: 100%;
+    min-height: 10rem;
+    padding-left: 25px;
+    color: aliceblue;
+    margin: 3px;
+    
+}
+.sidebar-website>h2{
+    padding: 3px;
+    margin-bottom: 2px;
+    margin-top: 5px;
+    
+}
+.website-box{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: aliceblue;
+}
+.website-box>a{
+    color: aliceblue;
+}
+.website-box>a:hover{
+    color: aqua;
+}
+
+
+/* ICACIE-INFO */
+
+
+
+/* FOOTER */
+
+.contributor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.name{
+    margin-left: 2rem;
+}
+.logolink{
+    height: 6.1rem;
+    width: 9rem;
+    padding: .8rem;
+}
+.social-page{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 250px;
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+}
+.social-page__icon{
+    padding: 5px;
+}
+.copywrite{
+    font-weight: 700;
+    font-size: 1rem;
+}
