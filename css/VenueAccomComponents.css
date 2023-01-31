@@ -141,6 +141,109 @@
 
 
 /* ICACIE-INFO */
+.cover{
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.cover-img{
+    height: 300px;
+    width:100%;
+    border: 3px solid var(--colour-darkgrey);
+}
+
+.cover-nav{
+    background-color: var(--colour-darkblue);
+    padding: 3px;
+}
+
+.cover-nav_items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.cover-nav__link{
+    text-decoration: none;
+    color: aqua;
+    font-weight: 700;
+}
+.cover-nav__link:hover{
+    text-decoration: none;
+    color: var(--colour-sky);
+    text-decoration: underline;
+}
+
+/* VENUE sub : Accomodation */
+
+
+.container-accom{
+    min-height: 100vh;
+    background: linear-gradient(60deg,var(--colour-lightgrey),rgb(153, 198, 237));
+    padding: 20px 10%;
+    padding-bottom: 60px;
+}
+
+.container-accom .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: black;
+    text-shadow: 2px 5px 10px var(--colour-sky);
+    font-size: 2.3rem;
+}
+
+.container-accom .container-accom_box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px,1fr));
+    gap: 15px;
+}
+
+.container-accom .container-accom_box .box{
+    box-shadow: 2px 5px 10px var(--colour-sky);
+    border-radius: 5px;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 25px 15px;
+}
+
+.container-accom .container-accom_box .box img{
+    height: 270px;
+    width: 190px;
+}
+
+.container-accom .container-accom_box .box h3{
+    color: black;
+    font-size: 1.4rem;
+    padding: 15px 0;
+}
+
+.container-accom .container-accom_box .box p{
+    color: black;
+    font-size: 1.2rem;
+    padding: 15px 0;
+    line-height: 1.4;
+}
+
+.container-accom .container-accom_box .box .btn{
+    margin-top: 15px;
+    display: inline-block;
+    background: var(--colour-darkblue);
+    color: aliceblue;
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+
+.container-accom .container-accom_box .box .btn:hover{
+    letter-spacing: 1.2px;
+}
+
+.container-accom .container-accom_box .box:hover{
+    box-shadow: 2px 10px 15px var(--colour-sky);
+}
+
+
 
 
 
