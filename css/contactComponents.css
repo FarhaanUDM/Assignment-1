@@ -142,7 +142,105 @@
 
 /* ICACIE-INFO */
 
+.contact{
+    background: linear-gradient(120deg,var(--colour-sky),var(--colour-lightgrey));
+    padding: 10px 2%;
+    width: 100%;
+    padding-bottom: 55px;
+    transition: 1s linear;
 
+}
+.contact .heading{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 2rem;
+    color: var(--colour-black );
+    text-shadow: 0 5px 10px var( --colour-darkgrey);
+}
+
+.contact-box{
+    background: var(--colour-lightgrey);
+    width: 100%;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 70%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: var(--colour-lightblue);
+}
+
+.contact p{
+    margin-bottom: 40px;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.input-row{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+.input-row .input-group{
+    flex-basis:45%;
+}
+
+input{
+    width: 100%;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    padding-bottom: 8px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid black;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+h3{
+    font-size: 2.3rem;
+    margin-bottom: 20px;
+}
+
+label{
+    margin-bottom: 7px;
+    display: block;
+    color: black;
+    font-size: 1.3rem;
+}
+button{
+    background-color:var(--colour-sky);
+    width: 100px;
+    border: none;
+    outline: none;
+    color: black;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px var(--colour-darkblue);
+}
+button:hover{
+    box-shadow: 0px 5px 15px 0px var(--colour-lightblue);
+    background-color: aqua;
+}
+
+tr td:first-child{
+    padding-right: 25px;
+}
+
+tr td{
+    padding-top: 20px ;
+    font-size: 1.3rem;
+}
 
 /* FOOTER */
 
